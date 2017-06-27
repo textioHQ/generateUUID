@@ -4,7 +4,7 @@
   "description": "Generate a UUID",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine ./base.spec.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/textioHQ/generateUUID/issues"
   },
-  "homepage": "https://github.com/textioHQ/generateUUID#readme"
+  "homepage": "https://github.com/textioHQ/generateUUID#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
 }
