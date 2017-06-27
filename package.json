@@ -1,0 +1,22 @@
+{
+  "name": "textio-generate-uuid",
+  "version": "1.0.0",
+  "description": "Generate a UUID",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/textioHQ/generateUUID.git"
+  },
+  "keywords": [
+    "uuid"
+  ],
+  "author": "Textio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/textioHQ/generateUUID/issues"
+  },
+  "homepage": "https://github.com/textioHQ/generateUUID#readme"
+}
