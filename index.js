@@ -1,5 +1,5 @@
 module.exports = function generateUUID() {
-    var d = new Date();
+    var d = Date.now();
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
         const r = (d + (Math.random() * 16)) % 16 | 0;
         d = Math.floor(d / 16);
